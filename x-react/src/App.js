@@ -1,10 +1,13 @@
 import React from 'react';
-import Card from './components/Card'
+import CardList from './components/CardList';
+import {robots} from './bots/robots.js';
+
 
 const App = () => {
+  
   return (
     <div className="App">
-      <Card />
+      <CardList robots={robots}/>
     </div>
   );
 }
