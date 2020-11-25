@@ -20,8 +20,8 @@ class App extends Component {
 
   onSearchChange = (event) => this.setState({ searchfield: event.target.value })
 
-
-
+  
+  //RENDER
   render (){
 
     const filterBots = this.state.robots.filter(robot => {
@@ -40,7 +40,7 @@ class App extends Component {
           <CardList robots={filterBots}/>
         </Scroll>
       </div>
-      
+
     );
   }
 }
