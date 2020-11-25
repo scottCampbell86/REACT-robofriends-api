@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 const Card = ({name, id, email}) => {
 
@@ -13,9 +12,5 @@ const Card = ({name, id, email}) => {
     </div>
   );
 };
-
-// Card.propTypes = {
-  
-// };
 
 export default Card;

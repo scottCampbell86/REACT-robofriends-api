@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Scroll = props => {
   return (
     <div style={{ overflowY: 'scroll', border: '2.5px solid black', height: '750px'}}>
@@ -8,6 +7,5 @@ const Scroll = props => {
     </div>
   );
 };
-
 
 export default Scroll;

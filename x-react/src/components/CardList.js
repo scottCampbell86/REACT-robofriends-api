@@ -1,8 +1,6 @@
 import React from 'react';
 import Card from './Card';
 
-// import PropTypes from 'prop-types';
-
 const CardList = ({ robots }) => {
   return (
     <div>
@@ -18,9 +16,5 @@ const CardList = ({ robots }) => {
     </div>
   );
 };
-
-// CardList.propTypes = {
-  
-// };
 
 export default CardList;
